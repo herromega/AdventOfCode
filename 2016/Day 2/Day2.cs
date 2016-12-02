@@ -28,17 +28,17 @@ namespace AdventOfCode {
 			foreach(string line in instructions) {
 				foreach (char direction in line) {
 					switch (direction) {
-                        case 'U': y--; break;
-                        case 'D': y++; break;
-                        case 'L': x--; break;
-                        case 'R': x++; break;
-                    }
+						case 'U': y--; break;
+						case 'D': y++; break;
+						case 'L': x--; break;
+						case 'R': x++; break;
+ 					}
 
 					if (x < 0) { x = 0; }
 					if (x > 2) { x = 2; }
 					if (y < 0) { y = 0; }
 					if (y > 2) { y = 2; }
-                }
+				}
 				
 				code += keypad[y, x].ToString();
 			}
@@ -69,11 +69,11 @@ namespace AdventOfCode {
 					int tempy = y;
 					
 					switch (direction) {
-                        case 'U': tempy--; break;
-                        case 'D': tempy++; break;
+						case 'U': tempy--; break;
+						case 'D': tempy++; break;
                         case 'L': tempx--; break;
-                        case 'R': tempx++; break;
-                    }
+						case 'R': tempx++; break;
+					}
 					
 					if(tempx < 0) { tempx = 0;}
 					if(tempx > 4) { tempx = 4;}
@@ -84,11 +84,10 @@ namespace AdventOfCode {
 						x = tempx;
 						y = tempy;
 					}
-                }
+				}
 
-                code += keypad[y, x].ToString();
+				code += keypad[y, x].ToString();
 			}
-			
 			
 			Console.WriteLine("Answer Part 2 : " + code);
 		}
