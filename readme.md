@@ -1,6 +1,6 @@
 # AdventOfCode
 
-This is my collection of AdventOfCode solutions. 
+This is my collection of AdventOfCode solutions from both 2015 and 2016. 
+Fell free to follow my progress here.
 
-Fell free to folow my progress.
-
+### Happy Holidays
