@@ -71,7 +71,7 @@ namespace AdventOfCode {
 					switch (direction) {
 						case 'U': tempy--; break;
 						case 'D': tempy++; break;
-                        case 'L': tempx--; break;
+						case 'L': tempx--; break;
 						case 'R': tempx++; break;
 					}
 					
