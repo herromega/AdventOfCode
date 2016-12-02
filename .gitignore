@@ -50,6 +50,7 @@ Temporary Items
 *.csproj
 *.cache
 *.exe
-2016/Day 1/obj/Debug/Day1.csproj.FileListAbsolute.txt
-2016/Day 1/Properties/AssemblyInfo.cs
+*.csproj.FileListAbsolute.txt
+AssemblyInfo.cs
 *.sln
+*.csproj.FileListAbsolute.txt
