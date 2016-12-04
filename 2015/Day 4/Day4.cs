@@ -51,7 +51,7 @@ namespace AdventOfCode {
 				byte[] hashData = hasher.ComputeHash(Encoding.UTF8.GetBytes(tempkey));
 				
 				StringBuilder hashString = new StringBuilder();
-            	for (int x = 0; x < hashData.Length; x++) {
+				for (int x = 0; x < hashData.Length; x++) {
 					hashString.Append(hashData[x].ToString("x2"));
 				}
 				

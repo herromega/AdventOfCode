@@ -19,26 +19,26 @@ namespace AdventOfCode {
 			
 			foreach(string line in instructions) {	
 				string checkSum = line.Substring(line.Length - 6).Substring(0,5);
-                int sectorId = Convert.ToInt32(line.Substring(line.Length - 10).Substring(0, 3));
-                char[] cryptName = line.Substring(0, line.Length - 11).Replace("-",string.Empty).ToCharArray();
+				int sectorId = Convert.ToInt32(line.Substring(line.Length - 10).Substring(0, 3));
+				char[] cryptName = line.Substring(0, line.Length - 11).Replace("-",string.Empty).ToCharArray();
 				
-                string reverseChecksum = new string(
-                	cryptName.GroupBy(a => a).Select(
-                		b => new { 
-                			b.Key, Count = b.Count() 
-                		}
-                	).OrderByDescending(
-                		c => c.Count
-                	).ThenBy(
-                		c => c.Key
-                	).Take(5).Select(
-                		c => c.Key
-                	).ToArray()
-                );
+				string reverseChecksum = new string(
+					cryptName.GroupBy(a => a).Select(
+						b => new { 
+							b.Key, Count = b.Count() 
+						}
+					).OrderByDescending(
+						c => c.Count
+					).ThenBy(
+						c => c.Key
+					).Take(5).Select(
+						c => c.Key
+					).ToArray()
+				);
                 
-                if(checkSum.Equals(reverseChecksum)) {
-                	realRoomSum += sectorId;
-                }
+				if(checkSum.Equals(reverseChecksum)) {
+					realRoomSum += sectorId;
+				}
           
 			}
 			
@@ -50,8 +50,8 @@ namespace AdventOfCode {
 			int foundSectorId = 0;
 			
 			foreach(string line in instructions) {	
-                int sectorId = Convert.ToInt32(line.Substring(line.Length - 10).Substring(0, 3));
-                char[] cryptName = line.Substring(0, line.Length - 11).Replace("-"," ").ToCharArray();
+				int sectorId = Convert.ToInt32(line.Substring(line.Length - 10).Substring(0, 3));
+				char[] cryptName = line.Substring(0, line.Length - 11).Replace("-"," ").ToCharArray();
 				
 				for (int i = 0; i < cryptName.Length; i++) {
 					char letter = cryptName[i];
@@ -64,14 +64,14 @@ namespace AdventOfCode {
 						letter = letter == 'z' ? 'a' : (char)(letter + 1);
 					} 
 					
-	    			cryptName[i] = letter;
+					cryptName[i] = letter;
 				}
                 
-                string decryptedName = new string(cryptName);
+				string decryptedName = new string(cryptName);
                 
-                if(decryptedName.Contains("northpole")) {
-                	foundSectorId = sectorId;
-                }
+				if(decryptedName.Contains("northpole")) {
+					foundSectorId = sectorId;
+				}
 			}
 			
 			Console.WriteLine("Answer Part 2 : " + foundSectorId);
