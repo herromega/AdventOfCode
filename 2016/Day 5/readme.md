@@ -1,4 +1,4 @@
-##Day 5: How About a Nice Game of Chess? ---
+##Day 5: How About a Nice Game of Chess?
 
 You are faced with a security door designed by Easter Bunny engineers that seem to have acquired most of their security knowledge by watching hacking movies.
 
