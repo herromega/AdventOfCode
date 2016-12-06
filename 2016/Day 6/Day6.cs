@@ -36,7 +36,7 @@ namespace AdventOfCode {
 			
 			for (int i = 0; i < 8; i++) {
 				errorCorrectedCode.Append(codeFragments[i].OrderBy(f => f.Value).Last().Key);
-            }
+			}
 			
 			Console.WriteLine("Answer Part 1 : " + errorCorrectedCode);
 		}
@@ -57,7 +57,7 @@ namespace AdventOfCode {
 			
 			for (int i = 0; i < 8; i++) {
 				errorCorrectedCode.Append(codeFragments[i].OrderBy(f => f.Value).First().Key);
-            }
+			}
 			
 			Console.WriteLine("Answer Part 2 : " + errorCorrectedCode);
 		}
@@ -67,8 +67,8 @@ namespace AdventOfCode {
 			errorCorrectedCode = new StringBuilder();
 			
 			for (int i = 0; i < 8; i++) {
-                codeFragments[i] = new Dictionary<char, int>();
-            }
+				codeFragments[i] = new Dictionary<char, int>();
+			}
 		}
 	}
 }
