@@ -13,7 +13,7 @@ namespace AdventOfCode {
 			
 			string[] instructions = System.IO.File.ReadAllLines(@"../../input.txt");
 			
-			//Step1(instructions[0]);
+			Step1(instructions[0]);
 			Step2(instructions[0]);
 			
 			Console.ReadKey(true);
