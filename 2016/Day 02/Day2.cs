@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace AdventOfCode {
+namespace AdventOfCode.Y2016 {
 	class Day2 {
 		public static void Main(string[] args) {
 			

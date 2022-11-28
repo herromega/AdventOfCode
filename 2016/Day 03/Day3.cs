@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace AdventOfCode {
+namespace AdventOfCode.Y2016 {
 	class Day3 {
 		public static void Main(string[] args) {
 

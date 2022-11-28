@@ -2,8 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace AdventOfCode {
-	
+namespace AdventOfCode.Y2015 {
 	class Day7 {
 		
 		public struct InstructionObject {

@@ -3,7 +3,7 @@ using System.Linq;
 using System.Collections.Generic;
 using System.Text;
 
-namespace AdventOfCode {
+namespace AdventOfCode.Y2016 {
 	class Day6 {
 		
 		public static Dictionary<char, int>[] codeFragments;

@@ -1,7 +1,8 @@
 ﻿using System;
 
-namespace AdventOfCode {
+namespace AdventOfCode.Y2015 {
 	class Day1 {
+
 		public static void Main(string[] args) {
 			
 			string[] instructions = System.IO.File.ReadAllLines(@"../../input.txt");

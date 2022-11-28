@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-namespace AdventOfCode {
+namespace AdventOfCode.Y2015 {
 	
 	class Day11 {
 		

@@ -4,7 +4,7 @@ using System.Security.Cryptography;
 using System.Collections.Generic;
 using System.Text;
 
-namespace AdventOfCode {
+namespace AdventOfCode.Y2016 {
 	class Day5 {
 		
 		static MD5 hasher = MD5.Create();
@@ -67,7 +67,7 @@ namespace AdventOfCode {
             
 			int foundPasswordFragments = 0;
             
-			string passwordString;
+			string passwordString = "";
 			char[] passwordArray = { '_', '_', '_', '_', '_', '_', '_', '_' };
             
             

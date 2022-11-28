@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text.RegularExpressions;
 using System.Drawing;
 
-namespace AdventOfCode {
+namespace AdventOfCode.Y2016 {
 	class Day1 {
 		
 		private static Point currentPosition;

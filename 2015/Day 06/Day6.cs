@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace AdventOfCode {
+namespace AdventOfCode.Y2015 {
 	class Day6 {
 		
 		public static void Main(string[] args) {

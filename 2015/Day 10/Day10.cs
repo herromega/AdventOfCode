@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text.RegularExpressions;
 
-namespace AdventOfCode {
+namespace AdventOfCode.Y2015 {
 	
 	class Day10 {
 		

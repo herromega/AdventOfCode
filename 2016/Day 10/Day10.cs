@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Collections.Generic;
 
-namespace AdventOfCode {
+namespace AdventOfCode.Y2016 {
 	class Day10 {
 		
 		public struct BotObject {

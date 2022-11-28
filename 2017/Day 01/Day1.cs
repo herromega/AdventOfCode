@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text.RegularExpressions;
 using System.Drawing;
 
-namespace AdventOfCode {
+namespace AdventOfCode.Y2017 {
 	class Day1 {
-		
-		
+
+		public static string xxxx = "";
 		public static void Main(string[] args) {
         	
 			string[] instructions = System.IO.File.ReadAllLines(@"../../input.txt");

@@ -3,7 +3,7 @@ using System.Text;
 using System.Linq;
 using System.Security.Cryptography;
 
-namespace AdventOfCode {
+namespace AdventOfCode.Y2015 {
 	class Day5 {
 		
 		public static void Main(string[] args) {

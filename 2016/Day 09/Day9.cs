@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Text;
 
-namespace AdventOfCode {
+namespace AdventOfCode.Y2016 {
 	class Day9 {
 		
 		public static long total;
