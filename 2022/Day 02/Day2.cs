@@ -9,10 +9,10 @@ namespace AdventOfCode.Y2022 {
 
         public static string xxxx = "";
         public static void Main(string[] args) {
-        	
-			string[] instructions = System.IO.File.ReadAllLines(@"../../input.txt");
-				
-			Step1(instructions[0]);
+
+            string[] instructions = System.IO.File.ReadAllLines(@"../../../Day 02/input.txt");
+
+            Step1(instructions[0]);
 			Step2(instructions[0]);
         	
 			Console.ReadKey(true);
