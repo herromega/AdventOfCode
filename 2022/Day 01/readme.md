@@ -10,8 +10,7 @@ The jungle must be too overgrown and difficult to navigate in vehicles or access
 
 The Elves take turns writing down the number of Calories contained by the various meals, snacks, rations, etc. that they've brought with them, one item per line. Each Elf separates their own inventory from the previous Elf's inventory (if any) by a blank line.
 
-####For example,
-Suppose the Elves finish writing their items' Calories and end up with the following list:
+For example, suppose the Elves finish writing their items' Calories and end up with the following list:
 ```
 1000
 2000
@@ -43,7 +42,7 @@ Find the Elf carrying the most Calories. How many total Calories is that Elf car
 
 Your puzzle answer was 72017.
 
-###--- Part Two ---
+##--- Part Two ---
 
 By the time you calculate the answer to the Elves' question, they've already realized that the Elf carrying the most Calories of food might eventually run out of snacks.
 
