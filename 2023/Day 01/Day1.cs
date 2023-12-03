@@ -13,7 +13,7 @@ namespace AdventOfCode.Y2023 {
         	
 			string[] instructions = System.IO.File.ReadAllLines(@"../../../Day 01/input.txt");
 				
-			//Step1(instructions);
+			Step1(instructions);
 			Step2(instructions);
         	
 			Console.ReadKey(true);
